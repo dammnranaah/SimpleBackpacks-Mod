@@ -1,0 +1,20 @@
+name: SimpleBackpacks
+main: com.luis.backpacks.spigot.SimpleBackpacksPlugin
+version: 0.1.0
+api-version: 1.13
+author: Luis
+commands:
+  backpack:
+    description: Open your backpack or manage others.
+    usage: |
+      /backpack
+      /backpack <player>
+      /backpack give <player> <small|medium|large>
+    aliases: [bp, pack]
+    permission: simplebackpacks.use
+    permission-message: "You do not have permission to use this command."
+permissions:
+  simplebackpacks.use:
+    default: true
+  simplebackpacks.admin:
+    default: op

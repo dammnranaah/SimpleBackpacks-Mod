@@ -1,0 +1,21 @@
+persistence:
+  per_player: true
+  cross_world: true
+
+storage_sizes:
+  small: 9
+  medium: 18
+  large: 27
+
+commands:
+  enable_admin_open: true
+  enable_give: true
+
+database:
+  enabled: false
+  type: mysql
+  host: localhost
+  port: 3306
+  database: minecraft
+  username: user
+  password: pass

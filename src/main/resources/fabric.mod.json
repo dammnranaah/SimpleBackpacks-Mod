@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "simplebackpacks",
+  "version": "${version}",
+  "name": "Simple Backpacks",
+  "description": "Adds simple backpacks with extra inventory.",
+  "authors": ["Luis"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.luis.backpacks.SimpleBackpacksMod"
+    ]
+  },
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": ">=${fabric_api_version}"
+  }
+}

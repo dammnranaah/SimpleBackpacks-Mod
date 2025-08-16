@@ -1,0 +1,7 @@
+{
+  "item.simplebackpacks.backpack_small": "Small Backpack",
+  "item.simplebackpacks.backpack_medium": "Medium Backpack",
+  "item.simplebackpacks.backpack_large": "Large Backpack",
+  "command.simplebackpacks.open": "Opened your backpack.",
+  "command.simplebackpacks.given": "Gave a backpack to %s."
+}
